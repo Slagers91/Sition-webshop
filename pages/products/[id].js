@@ -25,7 +25,7 @@ const ProductDetailPage = () => {
               className="w-full h-auto object-contain"
             />
           </div>
-          <div className="md:w-1/2 mt-4 md:mt-[10vh] md:ml-8">
+          <div className="text-black md:w-1/2 mt-4 md:mt-[10vh] md:ml-8">
             <h2 className="text-3xl font-bold mb-4">{product.name}</h2>
             <p className="text-lg text-gray-600 mb-4">Brand: {product.brand}</p>
             <p className="text-lg mb-4">{product.description}</p>
